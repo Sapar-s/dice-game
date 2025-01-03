@@ -34,7 +34,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
+  background-color: #f7f7f7;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .active {
-  background-color: #f7f7f7;
+  background-color: #f1eeee;
 }
 .active .player-name {
   font-weight: 300;
@@ -161,6 +161,7 @@ i {
   transform: translateX(-50%);
   height: 100px;
   box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 .winner {
